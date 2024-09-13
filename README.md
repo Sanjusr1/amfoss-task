@@ -17,3 +17,16 @@
    My fields of interest is AI and software development, I like how AI makes our lives easy and solve many complex problems with ease.And I am interested in coding and developing projects . And to make them true I would work hard and plan on gaining more knowledge on AI and developing projects, I also try to do more projects on my field of interest and would take help from my mentors and try to gain knowledge from them
 
   
+# My task statistics are as shown-
+Task List 	Description 	Status
+Task-00 	Install Linux 	Completed
+Task-01 	Type Maestro 	Completed
+Task02 	Terminal Chaos 	Completed
+Task-03 	Hello, World! 	Partially done
+Task-04 	Gopal and his Page-pal 	Partially done
+Task-05 	Terminal Trolly 	Not attempted
+task-06 	Open Docs  Completed
+Task-07 	Pirate's Dilemma 	partially done
+Task-08 	Blog Burst 	Completed
+Task-09 	HERO-DEX! 	Not attempted
+Task-10 	Operation Pixel Merge	Not attempted
