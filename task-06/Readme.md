@@ -62,3 +62,7 @@ gitclone: https://github.com/shontzu/snakes-and-ladders/blob/main/script.js
 #### CODE IN CSS:
 gitclone: https://github.com/shontzu/snakes-and-ladders/blob/main/styles.css
 
+### Contribution Guidelines
+
+  - Reporting Issues: Please report any issues or bugs using the GitHub Issues tab.
+-  Submitting Pull Requests: Fork the repository, make your changes, and submit a pull request with a description of your changes.
