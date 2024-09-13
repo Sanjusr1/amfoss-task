@@ -51,4 +51,14 @@ In this we can create and delete useless moves from the game also.
 
 #### CLONE A REPOSITORY:
 gitclone: https://github.com/shontzu/snakes-and-ladders.git
-cd:snakes-and-ladders
+
+
+#### CODE IN HTML:
+gitclone: https://github.com/shontzu/snakes-and-ladders/blob/main/index.html
+
+#### CODE IN JAVASCRIPT:
+gitclone: https://github.com/shontzu/snakes-and-ladders/blob/main/script.js
+
+#### CODE IN CSS:
+gitclone: https://github.com/shontzu/snakes-and-ladders/blob/main/styles.css
+
