@@ -61,10 +61,6 @@ gitclone: https://github.com/shontzu/snakes-and-ladders/blob/main/script.js
 
 #### CODE IN CSS:
 gitclone: https://github.com/shontzu/snakes-and-ladders/blob/main/styles.css
-
-### Uses:
-
-   - Will get to how to  Write , simple HTML version of snake and ladders using CSS and Java script .
      
 ### Contribution Guidelines
 
