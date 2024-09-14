@@ -1,0 +1,16 @@
+use std::io;
+
+fn main() {
+    let mut input = String::new();
+    println!("Enter the number of rows for the diamond pattern: ");
+    io::stdin().read_line(&mut input).expect("Failed to read input");
+    let n: usize = input.trim().parse().expect("Invalid number");
+
+    for i in 0..n {
+        println!("{}{}", " ".repeat(n - i - 1), "*".repeat(2 * i + 1));
+    }
+
+    for i in (0..n-1).rev() {
+        println!("{}{}", " ".repeat(n - i - 1), "*".repeat(2 * i + 1));
+    }
+}
