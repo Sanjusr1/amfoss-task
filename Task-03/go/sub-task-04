@@ -1,0 +1,44 @@
+package main
+
+import (
+    "bufio"
+    "fmt"
+    "os"
+    "strings"
+)
+
+func generateDiamond(n int) string {
+    var diamond strings.Builder
+
+    for i := 0; i < n; i++ {
+        diamond.WriteString(strings.Repeat(" ", n - i - 1) + strings.Repeat("*", 2 * i + 1) + "\n")
+    }
+
+    for i := n - 2; i >= 0; i-- {
+        diamond.WriteString(strings.Repeat(" ", n - i - 1) + strings.Repeat("*", 2 * i + 1) + "\n")
+    }
+
+    return diamond.String()
+}
+
+func main() {
+
+    file, err := os.Open("input.txt")
+    if err != nil {
+        fmt.Println("Error opening file:", err)
+        return
+    }
+    defer file.Close()
+
+    scanner := bufio.NewScanner(file)
+    scanner.Scan()
+    var n int
+    fmt.Sscanf(scanner.Text(), "%d", &n)
+
+    diamondPattern := generateDiamond(n)
+
+    err = os.WriteFile("output.txt", []byte(diamondPattern), 0644)
+    if err != nil {
+        fmt.Println("Error writing file:", err)
+    }
+}
