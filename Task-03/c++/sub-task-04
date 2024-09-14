@@ -1,0 +1,37 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+
+void generate_diamond(int n, std::ofstream &output) {
+
+    for (int i = 0; i < n; i++) {
+        output << std::string(n - i - 1, ' ') << std::string(2 * i + 1, '*') << '\n';
+    }
+
+    for (int i = n - 2; i >= 0; i--) {
+        output << std::string(n - i - 1, ' ') << std::string(2 * i + 1, '*') << '\n';
+    }
+}
+
+int main() {
+    std::ifstream input("input.txt");
+    if (!input) {
+        std::cerr << "Error opening input file\n";
+        return 1;
+    }
+
+    int n;
+    input >> n;
+    input.close();
+
+    std::ofstream output("output.txt");
+    if (!output) {
+        std::cerr << "Error opening output file\n";
+        return 1;
+    }
+
+    generate_diamond(n, output);
+    output.close();
+
+    return 0;
+}
