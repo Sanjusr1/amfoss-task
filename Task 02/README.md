@@ -71,3 +71,19 @@ You will now be able to join the war again spreading your faith for the Emperor 
 Take a screenshot of this and save it in your handbook folder along with the other codes you have collected.
 Stand proud, champion!
 
+# git commands I learnt:
+- git clone
+- git switch
+- git checkout
+- git show
+  
+# Terminal commands I learnt:
+- ls
+- cd
+- mkdir
+- nano
+- cat
+- tree
+- find
+- ls -la
+- 
