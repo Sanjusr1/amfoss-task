@@ -26,7 +26,7 @@ My task statistics are as shown-
 | [Task-00](https://github.com/Sanjusr1/amfoss-task/tree/main/Task%20-%2000)   | Install Linux | Completed |
 | [Task-01](https://github.com/Sanjusr1/amfoss-task/tree/main/Task%20-01)   | Type maestro | Completed |
 | [Task-02](https://github.com/Sanjusr1/amfoss-task/tree/main/Task%2002)    | Terminal chaos| Completed |
-| [Task-03]()   | Hello, World! | Partially done|
+| [Task-03](https://github.com/Sanjusr1/amfoss-task/tree/main/Task-03)   | Hello, World! | completed|
 | [Task-04]()     | Gopal and his Page-pal  | Partially done |
 | [Task-05] |  Terminal Trolly | Not attempted |
 | [Task-06](https://github.com/Sanjusr1/amfoss-task/tree/main/task-06)    | Open Docs | Completed |
