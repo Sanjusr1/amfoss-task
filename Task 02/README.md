@@ -63,4 +63,11 @@ In this part:
   
 (https://github.com/user-attachments/assets/b7fabc5f-1343-4048-a5bb-ae719709e572)
 
+- 
+TASK COMPLETED:
+
+Congratulations Sanjusr1!!! You have successfully overcome the challenges and escaped the deadly clutches of Arrakis-dex.
+You will now be able to join the war again spreading your faith for the Emperor and humankind!!
+Take a screenshot of this and save it in your handbook folder along with the other codes you have collected.
+Stand proud, champion!
 
