@@ -1,0 +1,11 @@
+import Control.Monad (forM_)
+
+main :: IO ()
+main = do
+    putStr "Enter the number of rows for the diamond pattern: "
+    n <- readLn
+    let printLine i = putStrLn (replicate (n - i - 1) ' ' ++ replicate (2 * i + 1) '*')
+    -- Upper part of the diamond
+    forM_ [0..(n-1)] printLine
+    -- Lower part of the diamond
+    forM_ [(n-2), (n-3)..0] printLine
