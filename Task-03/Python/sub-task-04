@@ -1,0 +1,19 @@
+
+def generate_diamond(n):
+    diamond = []
+    
+    for i in range(n):
+        diamond.append(' ' * (n - i - 1) + '*' * (2 * i + 1))
+        
+    for i in range(n - 2, -1, -1):
+        diamond.append(' ' * (n - i - 1) + '*' * (2 * i + 1))
+    
+    return '\n'.join(diamond)
+
+with open('input.txt', 'r') as file:
+    n = int(file.read().strip())
+
+diamond_pattern = generate_diamond(n)
+
+with open('output.txt', 'w') as file:
+    file.write(diamond_pattern)
