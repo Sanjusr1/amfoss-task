@@ -1,0 +1,32 @@
+use std::fs;
+use std::io;
+
+fn generate_diamond(n: usize) -> String {
+    let mut diamond = String::new();
+
+    for i in 0..n {
+        diamond.push_str(&" ".repeat(n - i - 1));
+        diamond.push_str(&"*".repeat(2 * i + 1));
+        diamond.push('\n');
+    }
+
+    for i in (0..n-1).rev() {
+        diamond.push_str(&" ".repeat(n - i - 1));
+        diamond.push_str(&"*".repeat(2 * i + 1));
+        diamond.push('\n');
+    }
+
+    diamond
+}
+
+fn main() -> io::Result<()> {
+
+    let contents = fs::read_to_string("input.txt")?;
+    let n: usize = contents.trim().parse().expect("Invalid number");
+
+    let diamond_pattern = generate_diamond(n);
+
+    fs::write("output.txt", diamond_pattern)?;
+
+    Ok(())
+}
