@@ -1,0 +1,15 @@
+defmodule Diamond do
+  def print_diamond(n) do
+    for i <- 0..(n-1) do
+      IO.puts(String.duplicate(" ", n - i - 1) <> String.duplicate("*", 2 * i + 1))
+    end
+
+    for i <- (n-2)..0 do
+      IO.puts(String.duplicate(" ", n - i - 1) <> String.duplicate("*", 2 * i + 1))
+    end
+  end
+end
+
+IO.write("Enter the number of rows for the diamond pattern: ")
+n = IO.gets("") |> String.trim() |> String.to_integer()
+Diamond.print_diamond(n)
