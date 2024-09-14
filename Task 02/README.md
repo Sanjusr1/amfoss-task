@@ -36,5 +36,30 @@ In this part:
     
 ## Part 3
 
+ - In this part , one realm is splitted into 2 parts and each part consist some chests , to unlock those chests we need to use Celestial Veil Amulet 
+- First open any one of the dark relams and use 'tree' to find out if there are any chests , if there are any chests present then use python3 <that chest name >.py  since it is a python file ,and use Celesital Veil Amulet to open the chest
+- Now use cat command on opened chest and get a new code,(The opened chest is named as darkbook1)
+
+    -  The CODE of darkbook1 is :GNhbGlidXIvVGVyb
+ 
+ - Same goes with part 2 also and the code for darkbook 2 is:
+     
+     - CODE: WluYWwtQ2hhb3MtR29kU3VpdGU=
+
+## Part 4
+
+- In this part we need to combine all the unused codes ( 4 of them ) and decode them to get link repository for godsuite
+     - the combined code =aHR0cHM6Ly9naXRodWIuY29tL2FuZ3JlemljaGF0dGVyYm94L1RvLXRoZS1zdGFycy1hbmQtcmVhbG1zLXVuc2Vlbg==
+
+       - And the url we get is
+       -  url = https://github.com/angrexichatterbox/To-the-stars-and-realms-unseen
+
+## Part 5
+- In this after getting into that url you have to get into god-suite and in that there are some commits
+- use 'git show 'to see what's there in those commits
+- check through all those commits and in one of those commits there is a secret code
+- decode that secret code and open that in github
+- and if you can open that ,then your task is done!!!!
+  
 
 
