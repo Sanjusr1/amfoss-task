@@ -1,0 +1,20 @@
+defmodule Diamond do
+  def generate_diamond(n) do
+    upper_part = for i <- 0..(n-1), do: String.duplicate(" ", n - i - 1) <> String.duplicate("*", 2 * i + 1)
+    lower_part = for i <- (n-2)..0, do: String.duplicate(" ", n - i - 1) <> String.duplicate("*", 2 * i + 1)
+    Enum.join(upper_part ++ lower_part, "\n")
+  end
+end
+
+defmodule Main do
+  def run do
+    {:ok, content} = File.read("input.txt")
+    n = String.trim(content) |> String.to_integer()
+
+    diamond_pattern = Diamond.generate_diamond(n)
+
+    File.write!("output.txt", diamond_pattern)
+  end
+end
+
+Main.run()
